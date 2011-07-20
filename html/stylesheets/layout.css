@@ -1,0 +1,46 @@
+/* -------------- LAYOUT -------------- */
+/* margin, height, width etc */
+
+/*Hidden*/
+.hidden{display:none;}
+
+/* -------------- HEADER -------------- */
+
+/* -------------- NAVIGATION -------------- */
+
+/* -------------- MAIN CONTENT -------------- */
+
+#flow {
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+
+
+/* -------------- SUPPORTING CONTENT -------------- */
+
+/* -------------- TEMPLATES -------------- */
+
+/* -------------- COMPONENTS -------------- */
+
+/* -------------- FOOTER -------------- */
+
+/* -------------- ARTICLES -------------- */
+
+/* Comments */
+
+/* Pagination */
+
+/* -------------- ERRORS -------------- */
+
+/* -------------- JQUERY and CSS3 -------------- */
+
+/* -------------- CLEARFIX -------------- */
+
+{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
