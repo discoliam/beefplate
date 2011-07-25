@@ -1,1 +1,0 @@
-The current beefplate being used. This will be updated soon. I'd recommend you not use it.

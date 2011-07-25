@@ -1,0 +1,22 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  BEEF
+  Site: http://www.wearebeef.co.uk 
+  Twitter:@wearebeef 
+  Location: Bristol, UK
+  
+  Creative Director: Benji Hostler
+  Technical Director: Tom Burton
+  Development Director: Steve England
+  UI Developr: James Ede
+  Designer: Richard Windsor
+  Front End Developer: Liam Richardson
+  
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Ruby on Rails, Modernizr, jQuery
+  Software: Noodall, TinyMCE, Slide.js, Twitter.js 
+  Doctype:HTML5
