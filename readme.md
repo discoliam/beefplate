@@ -27,7 +27,7 @@ Beefplate is a starting point for many web projects at Beef (http://www.wearebee
 
 ###  Inspiration / Starting Points 
 
-HTML Email Boilerplate (http://htmlemailboilerplate.com)
+* HTML Email Boilerplate (http://htmlemailboilerplate.com)
 
 ## Mobile 
 
@@ -52,11 +52,13 @@ Unlike many of the sources listed, this isn't supposed to be a definitive starti
 ## Holler
 
 Liam Richardson
-http://discoliam.com
-discoliam@googlemail.com
-@discoliam
+
+* http://discoliam.com
+* discoliam@googlemail.com
+* @discoliam
 
 Beef
-http://wearebeef.co.uk
-hello@wearebeef.co.uk
-@wearebeef
+
+* http://wearebeef.co.uk
+* hello@wearebeef.co.uk
+* @wearebeef
