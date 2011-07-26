@@ -30,22 +30,6 @@ $(document).ready(function () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // -------------- COMMON FUNCTIONS/TOOLS/PLUGINS --------------
 
 // SLIDES.JS SLIDE SHOW

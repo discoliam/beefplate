@@ -1,53 +1,27 @@
 /* -------------- SKIN -------------- */
 /* color, background etc */
 
+/* -------------- SETUP -------------- */
+
 /* -------------- HEADER -------------- */
 
 /* -------------- NAVIGATION -------------- */
 
 /* -------------- MAIN CONTENT -------------- */
 
-
-.driver {
-  background: url(../images/cta-bg.gif) no-repeat 0 0;
-  color: #999;
-}
-
-.driver:hover {
-  background-position: 0 -108px;
-  color: #fff;
-}
-
-
-
-.twitter {
-  background: #38cacf;
-}
-
-
-.twitter span.twitter-top {
-  background: url(../images/twitter-top.gif) no-repeat 0 0;
-}
-
-.twitter span.twitter-bottom {
-  background: url(../images/twitter-bottom.gif) no-repeat 0 0;
-}
-
-
-
 /* -------------- SUPPORTING CONTENT -------------- */
 
 /* -------------- TEMPLATES -------------- */
-
-/* -------------- COMPONENTS -------------- */
-
-/* -------------- FOOTER -------------- */
 
 /* -------------- ARTICLES -------------- */
 
 /* Comments */
 
 /* Pagination */
+
+/* -------------- COMPONENTS -------------- */
+
+/* -------------- FOOTER -------------- */
 
 /* -------------- ERRORS -------------- */
 
