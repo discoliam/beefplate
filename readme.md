@@ -2,7 +2,7 @@
 
 Beefplate is a starting point for many web projects at Beef (http://www.wearebeef.co.uk). It is a combination of lots of work by many people, compiled, put together and some parts written/re-written by Liam Richardson (http://www.discoliam.com)
 
-## Sources
+## Site
 
 ###  Inspiration / Starting Points 
 
@@ -23,6 +23,15 @@ Beefplate is a starting point for many web projects at Beef (http://www.wearebee
 * jCarousel Lite (http://www.gmarwaha.com/jquery/jcarousellite/)
 * Cufon (http://cufon.shoqolate.com)
 
+## Email
+
+###  Inspiration / Starting Points 
+
+HTML Email Boilerplate (http://htmlemailboilerplate.com)
+
+## Mobile 
+
+Coming soon...
 
 ## Usage
 Beefplate is far from a finished product, but is aimed at being a neutral for the variety of projects that we take on. Beefplate and its predecessors have been used for apps built in Rails, Noodall, Wordpress, Drupal, Magento, Joomla and Static HTML sites. The following is a set of common tasks that need to be completed for each project. 
