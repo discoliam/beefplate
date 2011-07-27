@@ -21,39 +21,41 @@
     form input[type=submit]{border:0 none;display:block;font-size:0;height:26px;position:absolute;right:10px;top:2px;width:14px;background-image:url(images/404-search.png);cursor:pointer;color:#fff!important}
 
     /*LOGO*/
-    /*p.logo{
+    p.logo{
       overflow: hidden;
       text-align: left;
       display: block;
       line-height:0;
       text-indent: -1000em;
-      height: 100px;
-      width: 100px;
+      height: 116px;
+      width: 260px;
       background: url(/images/logo.gif) no-repeat 0 0;
-    }*/
+    }
 
     /*COLOUR*/
 
     /*Background*/
-    body{background: #fff}
+    body{background: #ffffff}
 
     /*Body*/
-    body, a:hover{color: #505050 !important;}
-    form input[type='submit']:hover{background-color: #505050;}
+    body, #main-content a:hover {color: #686869;}
+    form input[type='submit']:hover{background-color: #686869;}
 
     /*Main*/
-    #main-content a{color: #FB9F00}
-    #supporting-content a,form input[type='submit']{background-color: #FB9F00;color: #fff;}
+    #main-content a{color: #00457C}
+    #supporting-content a{background-color: #00457C; color: #fff}
+    form input[type='submit']{background-color: #00457C;color: #fff;}
 
     /*Secondary*/
-    form input[type='text'],#main-content,h1{border-color: #e7e4dd;}
-    h1{color:#e7e4dd;}
+    form input[type='text'],#main-content,h1{border-color: #63CEEA;}
+    h1, #supporting-content a:hover{color:#63CEEA;}
+    form input[type='submit']:hover{background-color:#63CEEA;}
 
     </style>
 </head>
 <body>
   <article>
-    <p class="logo">Site Title</p>
+    <p class="logo">SITE TITLE</p>
     <div id="main-content">
       <h1>422</h1>
       <p class="heading">The change you wanted was rejected.</p>
@@ -64,9 +66,9 @@
         <a href="/" title="Return to the home page">Return to the home page</a>
         or 
       </p>
-      <form action="#">
-      <input type="text" placeholder="Search Site"/>
-      <input type="submit" value="Search"/>
+      <form class="search" method="get" action="/search" accept-charset="UTF-8">
+      <input id="q" class="search" type="text" placeholder="Search Site" title="Search" name="q">
+      <input type="submit" value="Search" name="commit">
       </form>
     </div>
   </article>
