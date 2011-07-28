@@ -1,0 +1,40 @@
+/* -------------- LAYOUT -------------- */
+/* margin, height, width etc */
+
+/*Hidden*/
+.skip{display:none;}
+
+/* -------------- SETUP -------------- */
+
+/* -------------- HEADER -------------- */
+
+/* -------------- NAVIGATION -------------- */
+
+/* -------------- MAIN CONTENT -------------- */
+
+/* -------------- SUPPORTING CONTENT -------------- */
+
+/* -------------- TEMPLATES -------------- */
+
+/* -------------- ARTICLES -------------- */
+
+/* Comments */
+
+/* Pagination */
+
+/* -------------- COMPONENTS -------------- */
+
+/* -------------- FOOTER -------------- */
+
+/* -------------- ERRORS -------------- */
+
+
+/* -------------- CLEARFIX -------------- */
+
+{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
