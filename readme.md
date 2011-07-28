@@ -1,6 +1,6 @@
 #  Beefplate
 
-Beefplate is a starting point for many web projects at [Beef](http://www.wearebeef.co.uk). It is a combination of lots of work by many people, compiled, put together and some parts written/re-written by [Liam Richardson](http://www.discoliam.com)
+Beefplate is a starting point for many web projects at [Beef](http://www.wearebeef.co.uk). It is a combination of lots of work by many people, compiled, put together and some parts written/re-written by [Liam Richardson](http://www.discoliam.com).
 
 ## Site
 
@@ -46,8 +46,9 @@ Beefplate is a starting point for many web projects at [Beef](http://www.wearebe
 
 ## Contributers 
 
-* [Tom Davies](http://github.com/tomdavies) ([@metadaptive](http://twitter.com/metadaptive))
+* [Ben Darby](http://www.bendarby.co.uk/) ([@ben_m_darby](http://twitter.com/ben_m_darby))
 * [Tom Burton](http://bigblueyonder.co.uk/) ([@tbertz](http://twitter.com/tbertz))
+* [Tom Davies](http://github.com/tomdavies) ([@metadaptive](http://twitter.com/metadaptive))
 
 ## Usage
 Beefplate is far from a finished product, but is aimed at being a neutral for the variety of projects that we take on. Beefplate and its predecessors have been used for apps built in Rails, Noodall, Wordpress, Drupal, Magento, Joomla and Static HTML sites. The following is a set of common tasks that need to be completed for each project. 
