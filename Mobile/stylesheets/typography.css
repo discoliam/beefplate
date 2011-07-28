@@ -1,7 +1,7 @@
-/* -------------- TYPOGRAPHY -------------- */
+/* -------------- =TYPOGRAPHY -------------- */
 /* Font size, family, style etc */
 
-/* -------------- FONT FAMILY -------------- */
+/* -------------- =FONT FAMILY -------------- */
 
 body, textarea, input {
   font-family: ;
@@ -9,7 +9,7 @@ body, textarea, input {
   word-spacing:2px;
 }
 
-/* -------------- FONT SIZES -------------- */
+/* -------------- =FONT SIZES -------------- */
 
 /*9px*/
 {font-size:0.9em;}
@@ -65,7 +65,7 @@ body, textarea, input {
 /*36px */
 {font-size:3.6em;}
 
-/* -------------- FONT STYLING -------------- */
+/* -------------- =FONT STYLING -------------- */
 
 /* Bold */
 {font-weight: bold;}
@@ -83,13 +83,13 @@ body, textarea, input {
 
 {font-style: normal !important;}
 
-/* -------------- LINE HEIGHT -------------- */
+/* -------------- =LINE HEIGHT -------------- */
 {line-height: ;}
 
-/* -------------- LETTER SPACING -------------- */
+/* -------------- =LETTER SPACING -------------- */
 {letter-spacing: ;}
 
-/* -------------- WORD SPACING -------------- */
+/* -------------- =WORD SPACING -------------- */
 {word-spacing: ;}
 
 

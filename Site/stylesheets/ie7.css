@@ -1,11 +1,11 @@
-/* -------------- IE7 -------------- */
+/* -------------- =IE7 -------------- */
 
 
-/* -------------- COMMON FIX'S -------------- */
+/* -------------- =COMMON FIX'S -------------- */
 button {  width: auto; overflow: visible; }
 img { -ms-interpolation-mode: bicubic; }
 
-/* -------------- CLEARFIX -------------- */
+/* -------------- =CLEARFIX -------------- */
 {
   height: 1%;
 }
