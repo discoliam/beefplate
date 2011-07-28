@@ -9,6 +9,17 @@ body, textarea, input {
   word-spacing:2px;
 }
 
+/* -------------- =@FONT-FACE-------------- */
+
+@font-face {
+	font-family: '';
+	src: url('');
+	src: local(''),
+		url('') format('woff'),
+		url('') format('truetype'),
+		url('') format('svg');
+}
+
 /* -------------- =FONT SIZES -------------- */
 
 /*9px*/
