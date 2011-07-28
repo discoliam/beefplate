@@ -31,7 +31,18 @@ Beefplate is a starting point for many web projects at Beef (http://www.wearebee
 
 ## Mobile 
 
-Coming soon...
+###  Inspiration / Starting Points 
+
+* HTML5 Mobile Boilerplate (http://html5boilerplate.com/mobile/)
+
+### Major components
+
+* Modernizr (http://www.modernizr.com/)
+* jQuery (http://jquery.com/)
+* Fancybox (http://fancybox.net/)
+* Slides (http://slidesjs.com/)
+* jCarousel Lite (http://www.gmarwaha.com/jquery/jcarousellite/)
+* Cufon (http://cufon.shoqolate.com)
 
 ## Usage
 Beefplate is far from a finished product, but is aimed at being a neutral for the variety of projects that we take on. Beefplate and its predecessors have been used for apps built in Rails, Noodall, Wordpress, Drupal, Magento, Joomla and Static HTML sites. The following is a set of common tasks that need to be completed for each project. 
