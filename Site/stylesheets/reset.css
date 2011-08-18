@@ -1,19 +1,24 @@
-/* -------------------------------------------------------------- 
-  reset.css - Resets default browser CSS.
-	Bassed on resets from Eric Meyer, Richard Clark, Tim Van Damme, BlueprintCSS and HTML5 Boilerplate, 
-	
-	Produced by Liam Richardson for Beef.
-	http://www.wearebeef.co.uk
-	http://www.discoliam.com
-			
-	SOURCES: 	
-	http://richclarkdesign.com
-  http://www.blueprintcss.org
-	http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded
-	http://www.aestheticallyloyal.com/public/optimize-legibility
-	http://maxvoltar.com/archive/-webkit-font-smoothing
+/* --------------------------------------------------------------
+  
+  REALIZE - A CSS Reset/Normalise Stylesheet
+  
+  Produced by Liam Richardson for Beefplate.
+  http://www.discoliam.com
+  http://www.wearebeef.co.uk
+  
+  Lovingly cobbled together, ripped off and downright coppied from: 
+  Eric Meyer            - (http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded)
+  Richard Clark         - (http://richclarkdesign.com)
+  Tim Van Damme         - (http://maxvoltar.com/archive/-webkit-font-smoothing)
+  BlueprintCSS          - (http://www.blueprintcss.org)
+  HTML5 Boilerplate     - (http://html5boilerplate.com/)
+  normalize.css         - (http://necolas.github.com/normalize.css/)
+  
+  NOTE: this file is still called reset.css for legacy reasons. Old People eh?
+  
+  LISTEN TO: Converge, Touche Amore, La Dispute, Brutality Will Prevail
+  
 -------------------------------------------------------------- */
-
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -28,24 +33,23 @@ footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video,
 applet, a, acronym, big, font, strike, tt {
   margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	font-family: inherit;
-	vertical-align: baseline;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
 }
 
-/*so:HTML 5 Specific*/
+/*HTML5*/
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
-audio:not([controls]) { display: none; }
-/*eo:HTML 5 Specific*/
+audio:not([controls]), [hidden] {display: none;}
 
 /*LAYOUT*/
-html {-webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html {-webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;overflow-y: scroll;}
 body, button, input, select, textarea { font-family: sans-serif; }
 body{line-height:1;}
 
@@ -65,6 +69,7 @@ small { font-size: 85%; }
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 svg:not(:root) { overflow: hidden; }
 
+
 /*FORMS*/
 form { margin: 0; }
 fieldset { border: 0; margin: 0; padding: 0;
@@ -77,6 +82,7 @@ input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-b
 input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
 button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input[type=button], input[type=submit], button { cursor: pointer; }
 
 
 /*ELEMENTS*/
@@ -88,6 +94,7 @@ sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: b
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 
+
 /*LINKS*/
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
@@ -98,14 +105,17 @@ a:hover, a:active { outline: 0; }
 	Set some default design patterns
 -------------------------------------------------------------- */
 p, ol, ul {padding-bottom: 10px;}
+p {-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;}
 ol, ul {list-style-position: inside;}
 ol{list-style-type:decimal;}
 ul{list-style-type:disc;}
-strong,h1,h2,h3,h4,h5,h6{font-weight:bold;text-rendering: optimizeLegibility;}
-em {font-style:italic;}
+strong,h1,h2,h3,h4,h5,h6,b{font-weight:bold;text-rendering: optimizeLegibility;}
+em,i{font-style:italic;}
 blockquote {padding: 20px;font-style:italic;}
 abbr[title], dfn[title] {border-bottom:1px dotted #000;cursor:help;}
 html {-webkit-font-smoothing: antialiased;}
 sub { vertical-align: sub; font-size: smaller; }
 sup { vertical-align: super; font-size: smaller; }
-input[type=button], input[type=submit], button { cursor: pointer; }
+pre, code, kbd, samp {font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em;}
+pre {white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
+nav ul,nav ol {list-style: none;list-style-image: none;}
