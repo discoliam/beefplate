@@ -14,15 +14,6 @@ Beefplate is a starting point for many web projects at [Beef](http://www.wearebe
 * [Tim Van Damme](http://maxvoltar.com/)
 * [BlueprintCSS](http://www.blueprintcss.org)
 
-### Major components
-
-* [Modernizr](http://www.modernizr.com/)
-* [jQuery](http://jquery.com/)
-* [Fancybox](http://fancybox.net/)
-* [Slides](http://slidesjs.com/)
-* [jCarousel Lite](http://www.gmarwaha.com/jquery/jcarousellite/)
-* [Cufon](http://cufon.shoqolate.com)
-
 ## Email
 
 ###  Inspiration / Starting Points 
@@ -34,15 +25,6 @@ Beefplate is a starting point for many web projects at [Beef](http://www.wearebe
 ###  Inspiration / Starting Points 
 
 * [HTML5 Mobile Boilerplate](http://html5boilerplate.com/mobile/)
-
-### Major components
-
-* [Modernizr](http://www.modernizr.com/)
-* [jQuery](http://jquery.com/)
-* [Fancybox](http://fancybox.net/)
-* [Slides](http://slidesjs.com/)
-* [jCarousel Lite](http://www.gmarwaha.com/jquery/jcarousellite/)
-* [Cufon](http://cufon.shoqolate.com)
 
 ## Contributers 
 
@@ -57,8 +39,7 @@ Beefplate is far from a finished product, but is aimed at being a neutral for th
 * Update Meta Data
 * Add Google Analytics account code
 * Update url paths for CSS / JS files (currently all relative)
-* Remove comments and compress non library CSS and JS files
-* Remove un-used Libraries
+* Remove comments and compress CSS and JS files
 
 There is probably more I've forgotten about. But you should be able to work everything out.
 
