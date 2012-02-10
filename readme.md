@@ -19,6 +19,7 @@ Beefplate is a starting point for many web projects at [Beef](http://www.wearebe
 ###  Inspiration / Starting Points 
 
 * [HTML Email Boilerplate](http://htmlemailboilerplate.com)
+* [Mailchimp Templates](http://mailchimp.com/resources/html-email-templates/)
 
 ## Mobile 
 
